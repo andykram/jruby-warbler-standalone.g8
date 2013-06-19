@@ -13,7 +13,7 @@ Warbler::Config.new do |config|
   config.jar_name = %q($name;format="normalize"$)
 
   # Application directories to be included in the app.
-  config.dirs = %w(config lib)
+  config.dirs = %w(bin config lib)
 
   # Additional files/directories to include, above those in config.dirs
   # config.includes = FileList["db"]

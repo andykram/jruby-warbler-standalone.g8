@@ -11,4 +11,13 @@ standalone projects.
 
 2. Create your app with:
 
-        g8 andykram/jruby-warbler-standalone.g8
+        g8 andykram/jruby-warbler-standalone.g8 --name=my-app
+
+3. Bundle install
+
+        cd my-app
+        jruby -S bundle install
+
+4. Build your jar with:
+
+        jruby -S warble jar

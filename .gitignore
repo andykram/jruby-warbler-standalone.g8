@@ -3,5 +3,4 @@ boot/
 lib_managed/
 src_managed/
 *.jar
-.ruby-gemset
 .DS_Store
