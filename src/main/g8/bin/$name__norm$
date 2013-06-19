@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require(%q($package;format="snake-case"$))
+
+$package;format="Camel"$::$name;format="Camel"$.Runner.new.run
